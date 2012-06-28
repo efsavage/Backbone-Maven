@@ -1,7 +1,8 @@
 Backbone for Maven
 =============
+[![Build Status](https://secure.travis-ci.org/efsavage/Bootstrap-Maven.png?branch=master)](http://travis-ci.org/efsavage/Bootstrap-Maven)
 
-This library gives you a way to drop [Backbone.js](http://backbonejs.org/) into your project as a [Maven](maven.apache.org) dependency, which mens you don't have to include these third party files in your own source control.
+This library gives you a way to drop [Backbone.js](http://backbonejs.org/) into your project as a [Maven](maven.apache.org) dependency, which means you don't have to include these third party files in your own source control.
 
 pom.xml
 -------
@@ -32,5 +33,9 @@ The minified versions of .css and .js files are used by default, append ?min=fal
 
 Modifications
 -------
-
 The files served have not been modified in any way from their original distribution.
+
+Other "Mavenized" Projects
+-------
+* [Bootstrap for Maven](https://github.com/efsavage/Bootstrap-Maven)
+* [jQuery for Maven](https://github.com/efsavage/jQuery-Maven)
